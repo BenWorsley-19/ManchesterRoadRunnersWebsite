@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&family=Rubik&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gray-gradient {
+    background: #F2F2F2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #b6b6b6,
+      #F2F2F2
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #b6b6b6,
+      #F2F2F2
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
